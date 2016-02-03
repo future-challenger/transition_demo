@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10102" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="CCr-EF-0hO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="9JK-15-feQ">
+            <objects>
+                <viewController id="CCr-EF-0hO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pxp-mh-t1N"/>
+                        <viewControllerLayoutGuide type="bottom" id="D21-FJ-Ap3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kOW-JU-hv7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Another storyboard label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yla-HX-h9V">
+                                <rect key="frame" x="20" y="89" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="yla-HX-h9V" firstAttribute="leading" secondItem="kOW-JU-hv7" secondAttribute="leadingMargin" id="gBZ-bA-UTN"/>
+                            <constraint firstItem="yla-HX-h9V" firstAttribute="top" secondItem="pxp-mh-t1N" secondAttribute="bottom" constant="69" id="qZd-RJ-X2R"/>
+                            <constraint firstItem="yla-HX-h9V" firstAttribute="trailing" secondItem="kOW-JU-hv7" secondAttribute="trailingMargin" id="tEr-DV-KXx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAP-1l-bHa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1404" y="335"/>
+        </scene>
+    </scenes>
+</document>

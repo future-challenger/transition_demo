@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		B453F6A41C60C8BA00289EBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6A31C60C8BA00289EBD /* AppDelegate.swift */; };
-		B453F6A61C60C8BA00289EBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6A51C60C8BA00289EBD /* ViewController.swift */; };
 		B453F6A91C60C8BA00289EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B453F6A71C60C8BA00289EBD /* Main.storyboard */; };
 		B453F6AB1C60C8BA00289EBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B453F6AA1C60C8BA00289EBD /* Assets.xcassets */; };
 		B453F6AE1C60C8BA00289EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B453F6AC1C60C8BA00289EBD /* LaunchScreen.storyboard */; };
 		B453F6B91C60C8BB00289EBD /* transitionDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6B81C60C8BB00289EBD /* transitionDemoTests.swift */; };
 		B453F6C41C60C8BB00289EBD /* transitionDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6C31C60C8BB00289EBD /* transitionDemoUITests.swift */; };
+		B453F6D21C60CDD900289EBD /* TDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6D11C60CDD900289EBD /* TDTableViewController.swift */; };
+		B453F6D41C60CDEB00289EBD /* TDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6D31C60CDEB00289EBD /* TDViewController.swift */; };
+		B453F6D91C60FF7200289EBD /* DetailStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6D81C60FF7200289EBD /* DetailStoryboardSegue.swift */; };
+		B453F6DB1C61B98500289EBD /* DetailTransitioningAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6DA1C61B98500289EBD /* DetailTransitioningAnimator.swift */; };
+		B453F6DD1C61C41D00289EBD /* NavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6DC1C61C41D00289EBD /* NavigationControllerDelegate.swift */; };
+		B453F6DF1C61F07D00289EBD /* Another.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B453F6DE1C61F07D00289EBD /* Another.storyboard */; };
+		B453F6E11C61F3C600289EBD /* AnotherStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B453F6E01C61F3C600289EBD /* AnotherStoryboardSegue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		B453F6A01C60C8BA00289EBD /* transitionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = transitionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B453F6A31C60C8BA00289EBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B453F6A51C60C8BA00289EBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B453F6A81C60C8BA00289EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B453F6AA1C60C8BA00289EBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B453F6AD1C60C8BA00289EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		B453F6BF1C60C8BB00289EBD /* transitionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = transitionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B453F6C31C60C8BB00289EBD /* transitionDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transitionDemoUITests.swift; sourceTree = "<group>"; };
 		B453F6C51C60C8BB00289EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B453F6D11C60CDD900289EBD /* TDTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDTableViewController.swift; sourceTree = "<group>"; };
+		B453F6D31C60CDEB00289EBD /* TDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TDViewController.swift; sourceTree = "<group>"; };
+		B453F6D81C60FF7200289EBD /* DetailStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailStoryboardSegue.swift; sourceTree = "<group>"; };
+		B453F6DA1C61B98500289EBD /* DetailTransitioningAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTransitioningAnimator.swift; sourceTree = "<group>"; };
+		B453F6DC1C61C41D00289EBD /* NavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		B453F6DE1C61F07D00289EBD /* Another.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Another.storyboard; sourceTree = "<group>"; };
+		B453F6E01C61F3C600289EBD /* AnotherStoryboardSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherStoryboardSegue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,16 @@
 		B453F6A21C60C8BA00289EBD /* transitionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B453F6D61C60FF4000289EBD /* Transitioning Animation */,
+				B453F6D51C60FF3700289EBD /* Custom Segue */,
 				B453F6A31C60C8BA00289EBD /* AppDelegate.swift */,
-				B453F6A51C60C8BA00289EBD /* ViewController.swift */,
-				B453F6A71C60C8BA00289EBD /* Main.storyboard */,
 				B453F6AA1C60C8BA00289EBD /* Assets.xcassets */,
 				B453F6AC1C60C8BA00289EBD /* LaunchScreen.storyboard */,
 				B453F6AF1C60C8BA00289EBD /* Info.plist */,
+				B453F6D11C60CDD900289EBD /* TDTableViewController.swift */,
+				B453F6D31C60CDEB00289EBD /* TDViewController.swift */,
+				B453F6A71C60C8BA00289EBD /* Main.storyboard */,
+				B453F6DE1C61F07D00289EBD /* Another.storyboard */,
 			);
 			path = transitionDemo;
 			sourceTree = "<group>";
@@ -123,6 +139,24 @@
 				B453F6C51C60C8BB00289EBD /* Info.plist */,
 			);
 			path = transitionDemoUITests;
+			sourceTree = "<group>";
+		};
+		B453F6D51C60FF3700289EBD /* Custom Segue */ = {
+			isa = PBXGroup;
+			children = (
+				B453F6D81C60FF7200289EBD /* DetailStoryboardSegue.swift */,
+				B453F6E01C61F3C600289EBD /* AnotherStoryboardSegue.swift */,
+			);
+			name = "Custom Segue";
+			sourceTree = "<group>";
+		};
+		B453F6D61C60FF4000289EBD /* Transitioning Animation */ = {
+			isa = PBXGroup;
+			children = (
+				B453F6DA1C61B98500289EBD /* DetailTransitioningAnimator.swift */,
+				B453F6DC1C61C41D00289EBD /* NavigationControllerDelegate.swift */,
+			);
+			name = "Transitioning Animation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +265,7 @@
 			files = (
 				B453F6AE1C60C8BA00289EBD /* LaunchScreen.storyboard in Resources */,
 				B453F6AB1C60C8BA00289EBD /* Assets.xcassets in Resources */,
+				B453F6DF1C61F07D00289EBD /* Another.storyboard in Resources */,
 				B453F6A91C60C8BA00289EBD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B453F6A61C60C8BA00289EBD /* ViewController.swift in Sources */,
 				B453F6A41C60C8BA00289EBD /* AppDelegate.swift in Sources */,
+				B453F6E11C61F3C600289EBD /* AnotherStoryboardSegue.swift in Sources */,
+				B453F6D41C60CDEB00289EBD /* TDViewController.swift in Sources */,
+				B453F6D21C60CDD900289EBD /* TDTableViewController.swift in Sources */,
+				B453F6DB1C61B98500289EBD /* DetailTransitioningAnimator.swift in Sources */,
+				B453F6DD1C61C41D00289EBD /* NavigationControllerDelegate.swift in Sources */,
+				B453F6D91C60FF7200289EBD /* DetailStoryboardSegue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = transitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thunderstudio.apps.transitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = transitionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.thunderstudio.apps.transitionDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
